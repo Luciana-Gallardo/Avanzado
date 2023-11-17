@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/imagenes/logo.png">
+    <title>Luciana Gallardo Final</title>
+</head>
+<body>
+    <nav class="menu">
+        <a href="./index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="70" version="1.1">
+                <!-- Monitor -->
+                <rect x="25" y="50" width="40" height="25" rx="1" ry="1" fill="#F0E9D2">
+                    <animate attributeName="y" from="-120" to="5" dur="2s" begin="0s" fill="freeze" />
+                </rect>
+                <rect x="27" y="25" width="36" height="18" rx="2" ry="3" fill="#495579">
+                    <animate attributeName="y" from="-108" to="8" dur="2.5s" begin="0s" fill="freeze" />
+                </rect>
+                <!-- Teclado -->
+                <polygon points="10,10 10,35 5,35 5,10" style="fill:#F0E9D2">
+                    <animate attributeName="points" from="65,-50 55,-50 10,-50 10,-50" to="52,25 67,40 7,40 25,25" dur="2s" begin="0s" fill="freeze"/>
+                </polygon>
+                <polygon points="15,10 0,25 -5,25 -5,10" style="fill:#495579">
+                    <animate attributeName="points" from="55,-55 60,-55 15,-55 15,-55" to="50,30 63,37 13,37 28,30" dur="2.5s" begin="0s" fill="freeze"/>
+                </polygon>
+            </svg>
+            
+        </a>
+        <ul>
+            <li class="menu-item">
+                <a class="boton-item" href="./historia.html">HISTORIA</a>
+            </li>
+            <li class="menu-item">
+                <a class="boton-item" href="./juguemos.html">JUGUEMOS</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="texto1">PROGRAMACION E HISTORIA</h1>
+    </header>
+    <h2>CONTENIDO</h2>
+    <picture class="tarjetas">
+        <div class="opcion">
+            <img class="tarjeta" src="./assets/imagenes/img1.jpg" alt="">
+            <p class="letras">Conozcamos un poco sobre la historia de la programación</p>
+            <a class="boton" href="./historia.html">Ir a Historia</a>
+        </div>
+        <div class="opcion">
+            <img class="tarjeta" src="./assets/imagenes/img2.jpg" alt="">
+            <p class="letras">Juguemos un poco sobre la computación</p>
+            <a class="boton" href="./juguemos.html">Ir a Juego</a>
+        </div>
+    </picture>
+    <footer>
+        <img class="codigo" src="./assets/imagenes/logo.png" alt="codigo">
+        <p class="letras1">
+            PROGRAMACION
+            <br>
+            E
+            <br>
+            HISTORIA
+        </p>
+        <p class="letras">Luciana Gallardo </p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
